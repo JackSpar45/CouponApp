@@ -24,14 +24,16 @@ cd CouponApp
 #### Step 2: Install Dependencies
 npm install
 
+#### Step 3: Run the Backend Locally
+npm start
+
+#### Step 4: Set Up the Frontend
+npm run dev
+
 ### Screenshots
 ![Screenshot (149)](https://github.com/user-attachments/assets/cd6fb74e-cc91-4e37-95af-57614b5f8baf)
 ![Screenshot (150)](https://github.com/user-attachments/assets/c5cf6d15-6abc-4430-b909-6932e64e76a0)
 
 
 
-#### Step 3: Run the Backend Locally
-npm start
 
-#### Step 4: Set Up the Frontend
-npm run dev
