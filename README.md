@@ -1,12 +1,31 @@
-# React + Vite
+# CouponApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Round-Robin Coupon Distribution with Abuse Prevention
 
-Currently, two official plugins are available:
+### Objective
+Develop a live web application that distributes coupons to guest users in a round-robin manner, incorporating mechanisms to prevent users from exploiting page refreshes to claim multiple coupons within a restricted time frame.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+- **Coupon Distribution:** Assign coupons sequentially to users to ensure even distribution.
+- **Guest Access:** Allow users to access the system without requiring login or account creation.
+- **Abuse Prevention:** Implement IP and cookie tracking to prevent multiple claims within a restricted time frame.
+- **User Feedback:** Provide clear messages indicating successful coupon claims or inform users of the time remaining before they can claim another.
 
-## Expanding the ESLint configuration
+### Tech Stack
+- **Frontend:** React, Vite
+- **Backend:** Express, Node.js
+- **Deployment:** Vercel (Frontend), Render (Backend)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### Step 1: Clone the Repository
+```bash
+git clone https://github.com/JackSpar45/CouponApp.git
+cd CouponApp
+```
+#### Step 2: Install Dependencies
+npm install
+
+#### Step 3: Run the Backend Locally
+npm start
+
+#### Step 4: Set Up the Frontend
+npm run dev
