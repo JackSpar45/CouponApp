@@ -46,7 +46,7 @@ function Homepage() {
 
     const claimCoupon = async () => {
         try {
-            const response = await axios.post('http://localhost:3000/claim', {
+            const response = await axios.post('https://couponapp-rerh.onrender.com/claim', {
                 cookie: document.cookie
             });
             setMessage(response.data.message);
