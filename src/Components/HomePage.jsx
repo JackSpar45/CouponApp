@@ -11,7 +11,7 @@ function Homepage() {
     useEffect(() => {
         const lastClaimTime = localStorage.getItem('lastClaimTime');
         if (lastClaimTime) {
-            const remainingTime = 3600000 - (Date.now() - lastClaimTime);
+            const remainingTime = 120000 - (Date.now() - lastClaimTime);
             if (remainingTime > 0) {
                 setDisabled(true);
                 startCountdown(remainingTime);
