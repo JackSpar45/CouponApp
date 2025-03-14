@@ -4,7 +4,8 @@ const app = express();
 const port = 3000;
 
 app.use(cors({
-    origin: 'https://coupon-app-murex.vercel.app/', // Replace with your frontend URL
+    origin: 'https://coupon-app-murex.vercel.app/', 'https://coupon-app-jayant-s-projects-bbdd8a06.vercel.app/',
+    'https://coupon-app-git-main-jayant-s-projects-bbdd8a06.vercel.app/'
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
 }));
